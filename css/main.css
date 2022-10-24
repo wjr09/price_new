@@ -1,0 +1,11 @@
+.superior{
+    padding-inline: 1.5rem;
+    padding-block: 2rem;
+    border-top-left-radius: 0.313rem;
+    border-top-right-radius: 0.313rem;
+    background-color: white;
+}
+.superior p:nth-last-of-type(1){
+    font-weight: 700;
+    line-height: 1.25;
+}
