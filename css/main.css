@@ -5,7 +5,31 @@
     border-top-right-radius: 0.313rem;
     background-color: white;
 }
-.superior p:nth-last-of-type(1){
+.superior p:nth-of-type(1){
     font-weight: 700;
     line-height: 1.25;
+    color: var(--Bright-Yellow);
+    margin-bottom: 1rem;
+}
+.superior p:nth-of-type(2){
+    height: 1.625rem;
+    color: var(--Grayish-Blue);
+    font-size: 0.875rem;
+}
+.esquerda{
+    background-color: var(--Cyan);
+    padding: 1.5rem;
+}
+.esquerda p:nth-of-type(1){
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.375rem;
+}
+.esquerda p:nth-of-type(2){
+    color: white;
+    opacity: 0.5;
+}
+.esquerda div{
+    
 }
