@@ -2,8 +2,7 @@
 .superior{
     padding-inline: 1.5rem;
     padding-block: 2rem;
-    border-top-left-radius: 0.313rem;
-    border-top-right-radius: 0.313rem;
+    border-radius: 5px 5px 0 0;
     background-color: white;
 }
 .superior p:nth-of-type(1){
@@ -13,32 +12,32 @@
     margin-bottom: 1rem;
 }
 .superior p:nth-of-type(2){
-    height: 1.625rem;
-    color: var(--Grayish-Blue);
-    font-size: 0.875rem;
+    line-height: 1.625rem;
+    color: var(--Bright-Yellow);
     margin-bottom: 1rem;
 }
 .esquerda{
     background-color: var(--Cyan);
     padding: 1.5rem;
 }
-.esquerda p:nth-of-type(1){
+.esquerda div p:nth-of-type(1){
     color: white;
     font-size: 2rem;
     font-weight: 700;
     line-height: 2.375rem;
 }
-.esquerda p:nth-last-of-type(1){
+.esquerda div p:nth-of-type(2){
     color: white;
     opacity: 0.5rem;
 }
 .esquerda div{
     display: flex;
-    letter-spacing: 0.75;
+    gap: 0.75rem;
     margin-bottom: 0.25rem;
+    align-items: center;
     
 }
-.esquerda P:nth-last-of-type(2){
+.esquerda P:nth-of-type(2){
     color: white;
     line-height: 1.625rem;
     margin-bottom: 1.625rem;
@@ -46,7 +45,7 @@
 }
 
 .esquerda button{
-    padding: 1rem;
+    padding-block: 1rem;
     width: 100%;
     color: white;
     font-size: 1rem;
@@ -60,11 +59,16 @@
 .direita{
     background-color: var(--light-cyan);
     padding: 1.5rem;
-    border-radius: 0.313rem;
+    border-radius: 0 0 5px 5px;
 }
 .direita p{
     line-height: 1.25rem;
     font-size: 0.875rem;
     color: white;
-    opacity: 0.75rem;
+    opacity: 0.75;
+}
+.esquerda > p {
+    color: white;
+    line-height: 1.625rem;
+    margin-bottom: 1.625;
 }
